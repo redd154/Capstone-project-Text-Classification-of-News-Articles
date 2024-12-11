@@ -10,8 +10,7 @@ The BBC News Classification Dataset, which includes labelled news stories in sev
             eliminating punctuation and stopwords.
             Lemmatisation, stemming, and tokenisation.
             Text is being converted to lowercase for consistency.
-            use methods such as TF-IDF (Term Frequency-Inverse Document Frequency) to convert text data into numerical characteristics.
-
+           
     Modelling: A variety of machine learning models were tested:
             Regression using Logistic
             The Random Forest Classifier
