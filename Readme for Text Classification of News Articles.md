@@ -1,7 +1,33 @@
 
-Text Classification of News Articles 
+## Text Classification of News Articles 
 
-Text Classification of News Articles is about classifying the news articles into its particular categories For instance if the news article is related to sports category then model gets classified as Sports and if the news article related to politics then model classify it as politics
+The goal of the Text Classification of News Articles project is to use machine learning to automatically classify news articles into predetermined groups. Given the increasing amount of news content that is generated every day, manual classification can be laborious and prone to mistakes. This project uses natural language processing (NLP) techniques to accurately identify news stories, offering a scalable and effective solution.
+
+The BBC News Classification Dataset, which includes labelled news stories in several categories, was used to create the project dataset. Text material and the associated category are included in every article.
+
+    Preprocessing Text:
+        Important NLP preprocessing steps were put into practice:
+            eliminating punctuation and stopwords.
+            Lemmatisation, stemming, and tokenisation.
+            Text is being converted to lowercase for consistency.
+            use methods such as TF-IDF (Term Frequency-Inverse Document Frequency) to convert text data into numerical characteristics.
+
+    Modelling: A variety of machine learning models were tested:
+            Regression using Logistic
+            The Random Forest Classifier
+            Classifier Using Decision Trees
+        Model performance was compared using assessment criteria such F1-score, recall, accuracy, and precision.
+
+ ## Target of the Project
+
+This project's major goal is to create a proof-of-concept for organisations, journalists, and content aggregators looking to automate news item classification. This may help:
+
+    News agencies can quickly organise stories into predetermined categories to improve content management.
+    Readers: Create personalised suggestions by categorising news articles based on their interests.
+    Researchers: Serve as a basic study for the implementation of NLP-based text classification.
+
+Furthermore, the project is intended to help aspiring data scientists and NLP aficionados learn and practise constructing end-to-end machine learning pipelines for text classification problems.
+
 
 
 
